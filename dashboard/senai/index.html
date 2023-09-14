@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai Livre</title>
+    <link rel="icon" type="image/x-icon" href="img/senaidois.PNG">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="headernav">
+        <figure>
+            <img src="img/senai.png" alt="">
+        </figure>
+        <div class="container-input">
+            <input type="text" placeholder="Search" name="text" class="input">
+            <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z"
+                    fill-rule="evenodd"></path>
+            </svg>
+        </div>
+
+        <nav class="NavHeader">
+            <a href="#ofertas">Vender</a>
+            <a href="#footer">Contato</a>
+            <a href="usuario/login.php">Entrar</a>
+            <a href="usuario/cadastro.php">Criar uma conta</a>
+            <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="imagens">
+            <div class="veiculo">
+                <img src="img/veiculo.png" alt="">
+                <p>Veículo</p>
+            </div>
+            <div class="tecnologia">
+                <img src="img/tecnologia.png" alt="">
+                <p>Tecnologia</p>
+            </div>
+            <div class="casa">
+                <img src="img/casaMoveis.png" alt="">
+                <p>Casa e Móveis</p>
+            </div>
+            <div class="eletro">
+                <img src="img/eletroDomenticos.png" alt="">
+                <p>Eletrodomésticos</p>
+            </div>
+            <div class="esporte">
+                <img src="img/esportes.png" alt="">
+                <p>Esportes e Fitness</p>
+            </div>
+            <div class="ferramentas">
+                <img src="img/ferramentas.png" alt="">
+                <p>Ferramentas</p>
+            </div>
+            <div class="construcao">
+                <img src="img/construcao.png" alt="">
+                <p>Construção</p>
+            </div>
+        </section>
+        <section class="ofertas" id="ofertas">
+            <h3>Ofertas do dia</h3>
+            <div class="promo">
+                <div class="fritadeira">
+                    <img src="img/fritadeira.png" alt="">
+                    <a href="fritadeira.html"><button>Oferta do dia</button></a>
+                    <h4>R$670,00</h4>
+                    <p>10x R$67,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Fritadeira de ar</h7>
+                </div>
+                <div class="camera">
+                    <img src="img/camera.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$300,00</h4>
+                    <p>10x R$30,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Camera fotografica</h7>
+                </div>
+                <div class="labtop">
+                    <img src="img/laptop.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$1.900,00</h4>
+                    <p>10x R$190,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>LapTop</h7>
+                </div>
+                <div class="cadeira">
+                    <img src="img/cadeiraGamer.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$1.600,00</h4>
+                    <p>10x R$160,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Cadeira Gamer</h7>
+                </div>
+                <div class="meia">
+                    <img src="img/meias.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$70,00</h4>
+                    <p>10x R$7,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Meias</h7>
+                </div>
+            </div>
+        </section>
+        <section class="ofertasdodia">
+            <h3>Confira as várias ofertas do dia</h3>
+            <div class="imagensdois">
+                <div class="tv">
+                    <img src="img/descTVs.png" alt="">
+                    <p>TV's</p>
+                </div>
+                <div class="moda">
+                    <img src="img/descModas.png" alt="">
+                    <p>Moda</p>
+                </div>
+                <div class="decoracao">
+                    <img src="img/descDomenticos.png" alt="">
+                    <p>Casa e decorações</p>
+                </div>
+                <div class="celular">
+                    <img src="img/descCelulares.png" alt="">
+                    <p>Smartphones</p>
+                </div>
+                <div class="beleza">
+                    <img src="img/descBeleza.png" alt="">
+                    <p>Beleza</p>
+                </div>
+                <div class="ferramentasdois">
+                    <img src="img/descFerramentas.png" alt="">
+                    <p>Ferramentas</p>
+                </div>
+                <div class="games">
+                    <img src="img/descEletronico.png" alt="">
+                    <p>Games</p>
+                </div>
+            </div>
+        </section>
+        <section class="compra">
+            <h3>Compre agora com as melhores promoções</h3>
+            <div class="promocao">
+                <div class="caixa">
+                    <img src="img/ofFerramentas.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$670,00</h4>
+                    <p>10x R$67,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Caixa de ferramentas</h7>
+                </div>
+                <div class="televisao">
+                    <img src="img/ofTvs.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$300,00</h4>
+                    <p>10x R$30,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Televisores</h7>
+                </div>
+                <div class="celulardois">
+                    <img src="img/ofCelulares.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$1.900,00</h4>
+                    <p>10x R$190,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Celulares</h7>
+                </div>
+                <div class="televisao">
+                    <img src="img/ofTvs2.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$1.600,00</h4>
+                    <p>10x R$160,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Televisores 4K</h7>
+                </div>
+                <div class="calca">
+                    <img src="img/ofCalcas.png" alt="">
+                    <button>Oferta do dia</button>
+                    <h4>R$70,00</h4>
+                    <p>10x R$7,00 sem juros</p>
+                    <p>Frete grátis <span><i class="fa-solid fa-bolt"></i></span> FULL</p>
+                    <h7>Calça</h7>
+                </div>
+            </div>
+            <div class="letrinha">
+            <a href="#" >Ver todas as ofertas</a>
+            </div>
+    </main>
+    <footer class="footer" id="footer">
+        
+        <div class="textesquerda">
+            <p>Copyright © 1999-2023 Ebazar.com.br LTDA.</p>
+            <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.</p>
+        </div>
+
+        <div class="textdireita">   
+            <div class="centro">
+                <p>Trabalhe conosco</p>
+                <p>Contato</p>
+                <p>Termos e condições</p>
+            </div>
+            <dvi class="direita">
+                <p>Acessibilidade</p>
+                <p>Como cuidamos da sua privacidade</p>
+                <p>Informações sobre seguro</p>
+            </dvi>
+        </div>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8eabb72de4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
